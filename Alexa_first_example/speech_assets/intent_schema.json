@@ -1,0 +1,42 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "first_name",
+          "type": "AMAZON.US_FIRST_NAME"
+        }
+      ],
+      "intent": "NameIntent"
+    },
+    {
+        "slots": [
+          {
+            "name": "room_name",
+            "type": "ROOM_NAMES"
+          },
+          {
+          "name": "number",
+          "type": "AMAZON.NUMBER"
+           }         
+          
+        ],
+        "intent": "ReserveRoomIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
