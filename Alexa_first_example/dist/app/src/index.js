@@ -49,7 +49,7 @@ if (config.server=="https"){
 	
 	const alexaHandler = function (event, context, callback) {
 	    const alexa = Alexa.handler(event, context, callback); 
-	    alexa.resources = SpeechOutput;
+	    //alexa.resources = SpeechOutput;
 	    alexa.registerHandlers.apply(null, allHandlers);
 	    alexa.execute();
 	};
